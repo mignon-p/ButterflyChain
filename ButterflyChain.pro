@@ -1,4 +1,4 @@
-update=Wednesday, February 21, 2018 'AMt' 11:35:24 AM
+update=Monday, September 03, 2018 'AMt' 11:32:52 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,5 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=myLibrary
-LibName31=dk_Trimmer_Potentiometers
-LibName32=switches
+LibName31=switches
