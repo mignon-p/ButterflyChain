@@ -17,8 +17,10 @@ externally.
 * D1-D18 (qty 18) - 5mm through-hole NeoPixel.  SparkFun part
   no. [COM-12986](https://www.sparkfun.com/products/12986).  Digi-Key
   part no. [1568-1213-ND](https://www.digikey.com/product-detail/en/sparkfun-electronics/COM-12986/1568-1213-ND/5673799).
-* C1 (qty 1) - 0.1µF 0805 capacitor.  AVX part no. 08055C104KAT2A.
-  Digi-Key part no. [478-1395-1-ND](https://www.digikey.com/product-detail/en/avx-corporation/08055C104KAT2A/478-1395-1-ND/564427).
+* C1 (qty 1) - 47µF 1210 capacitor.  Samsung part no. CL32A476MPJNNNE.
+  Digi-Key part no. [1276-3380-1-ND](https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL32A476MPJNNNE/1276-3380-1-ND/3891466).
+* J1-J2 (qty 1) - 3-pin JST SM Plug + Receptacle Cable Set.  Adafruit
+  part no. [1663](https://www.adafruit.com/product/1663).
 * [Bare wire, 20 AWG](https://smile.amazon.com/gp/product/B01BDB8240/).
 
 ## Circuit board
@@ -41,11 +43,16 @@ read that when I first came up with this trick.)
 
 ## Assembly
 
-4. Solder the 18 LEDs to the front of the board.  The LED should be
+1. Solder the surface-mount capacitor C1 onto the back of the board.
+
+2. Solder the JST SM plug and receptacle to the J1 and J2 locations.
+Be sure to get the polarity right!
+
+3. Solder the 18 LEDs to the front of the board.  The LED should be
 positioned so that the square pad gets one of the longer legs, not one
 of the shorter ones.
 
-5. Create the butterfly's antennae by inserting a length of bare wire
+4. Create the butterfly's antennae by inserting a length of bare wire
 into the holes on the butterfly's head.  (These two holes are
 represented by J3 on the schematic.)  It's a tight fit, so friction
 may be enough to hold the wire in place, but you can always solder it
@@ -63,14 +70,9 @@ exception).
 
 [1]: https://jlcpcb.com/quote
 [2]: https://en.wikipedia.org/wiki/Electroless_nickel_immersion_gold
-[3]: https://github.com/digikey/digikey-kicad-library
-[4]: https://github.com/digikey/digikey-kicad-library/blob/master/LICENSE.md
 [5]: http://kicad-pcb.org/
 [6]: https://en.wikipedia.org/wiki/Gerber_format
-[7]: https://github.com/ppelleti/butterfly-fw
 [9]: https://support.jlcpcb.com/article/28-how-to-remove-the-customer-id-on-the-pcb
-[10]: doc/Butterfly-adapter.jpg
-[11]: http://absmaxrat.com/
 [12]: https://creativecommons.org/licenses/by-sa/4.0/
 [14]: https://github.com/KiCad/kicad-footprints
 [15]: https://forum.kicad.info/t/kicad-library-licensing/7856
