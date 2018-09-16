@@ -12,6 +12,8 @@ The butterfly design is based on my [butterfly nightlight][19], but I
 have removed the microcontroller so that it can be controlled
 externally.
 
+![butterfly board](doc/butterfly.jpg)
+
 ## Bill of Materials
 
 * D1-D18 (qty 18) - 5mm through-hole NeoPixel.  SparkFun part
