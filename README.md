@@ -12,6 +12,9 @@ The butterfly design is based on my [butterfly nightlight][19], but I
 have removed the microcontroller so that it can be controlled
 externally.
 
+* [View schematic](doc/schematic.pdf)
+* [View PCB][20]
+
 ![butterfly board](doc/butterfly.jpg)
 
 ## Bill of Materials
@@ -84,5 +87,6 @@ exception).
 [17]: https://github.com/ppelleti/NeoBit
 [18]: https://github.com/ppelleti/FeatherBit
 [19]: https://github.com/ppelleti/butterfly-hw
+[20]: https://eyrie.io/board/09c10aa2968c4cc28b5949b69b98fd31
 [85]: https://oshpark.com/
 [86]: https://www.elecrow.com/pcb-manufacturing.html
