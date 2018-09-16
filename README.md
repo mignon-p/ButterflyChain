@@ -32,9 +32,8 @@ externally.
 
 This board is big enough that it would be rather expensive to order
 from [OSH Park][85], so I would recommend a Chinese fab such as
-[Elecrow][86] or [JLCPCB][1].  I chose blue soldermask for my first
-boards, but red or yellow might work, as well.  I chose the [ENIG][2]
-finish.
+[Elecrow][86] or [JLCPCB][1].  I chose blue soldermask for my boards,
+but red or yellow might work, as well.  I chose the [ENIG][2] finish.
 
 If you're not making any changes to the board, all you need to do is
 zip up the files in the `gerber` directory, and upload the zipfile to
@@ -52,12 +51,12 @@ read that when I first came up with this trick.)
 
 1. Solder the surface-mount capacitor C1 onto the back of the board.
 
-2. Solder the JST SM plug and receptacle to the J1 and J2 locations.
-Be sure to get the polarity right!
-
-3. Solder the 18 LEDs to the front of the board.  The LED should be
+2. Solder the 18 LEDs to the front of the board.  The LED should be
 positioned so that the square pad gets one of the longer legs, not one
 of the shorter ones.
+
+3. Solder the JST SM plug and receptacle to the J1 and J2 locations.
+Be sure to get the polarity right!
 
 4. Create the butterfly's antennae by inserting a length of bare wire
 into the holes on the butterfly's head.  (These two holes are
