@@ -27,19 +27,21 @@ externally.
 
 ## Circuit board
 
-Most fabs should work fine, but I chose [JLCPCB][1].  I chose blue
-soldermask for my first set of boards, but red or yellow might work,
-as well.  I chose the [ENIG][2] finish.
+This board is big enough that it would be rather expensive to order
+from [OSH Park][85], so I would recommend a Chinese fab such as
+[Elecrow][86] or [JLCPCB][1].  I chose blue soldermask for my first
+boards, but red or yellow might work, as well.  I chose the [ENIG][2]
+finish.
 
 If you're not making any changes to the board, all you need to do is
 zip up the files in the `gerber` directory, and upload the zipfile to
-JLCPCB.
+Elecrow or JLCPCB.
 
 Note that in the KiCad files and Gerber files, the "front" of the
 board is actually the back, and vice-versa. This is because JLCPCB
 adds a customer ID number to the front of the board, but I wanted the
 number to be on the actual back of the board, where it doesn't disrupt
-the esthetics of the nightlight.  (It turns out it's
+the esthetics of the butterfly.  (It turns out it's
 [possible to specify the location of the customer ID][9], but I hadn't
 read that when I first came up with this trick.)
 
@@ -82,3 +84,5 @@ exception).
 [17]: https://github.com/ppelleti/NeoBit
 [18]: https://github.com/ppelleti/FeatherBit
 [19]: https://github.com/ppelleti/butterfly-hw
+[85]: https://oshpark.com/
+[86]: https://www.elecrow.com/pcb-manufacturing.html
