@@ -17,6 +17,40 @@ externally.
 
 ![butterfly board](doc/butterfly.jpg)
 
+## Usage
+
+You can use any NeoPixel library on any microcontroller to control the
+LEDs on the butterfly.  The silkscreen shows how the LEDs are
+numbered.  Note that the NeoPixel butterflies use RGB format, rather
+than the more common GRB format.
+
+If you're using the
+[micro:bit MakeCode editor](https://makecode.microbit.org/), you can
+optionally use my
+[butterfly package](https://github.com/ppelleti/pxt-butterfly).  It
+makes it easier to control the inner, middle, or outer LEDs on the
+butterfly as a group.
+
+My butterfly package is not an "approved" package, so you'll need to
+enter its URL specifically.  Expand the "Advanced" box, and choose
+"Add Package".  Then enter `https://github.com/ppelleti/pxt-butterfly`
+in the search box:
+
+![Add Package dialog box](doc/add-package-butterfly.png)
+
+Then just choose the "butterfly" package that appears.
+
+You should then have a "Butterfly" category in your toolbox:
+
+![MakeCode toolbox](doc/blocks-toolbox.png)
+
+Now you can use the butterfly blocks:
+
+![Butterfly program](doc/blocks-toolbox.png)
+
+Be sure to use the NeoPixel "show" block once you've set your
+butterfly colors.
+
 ## Bill of Materials
 
 * D1-D18 (qty 18) - 5mm through-hole NeoPixel.  SparkFun part
