@@ -46,7 +46,7 @@ You should then have a "Butterfly" category in your toolbox:
 
 Now you can use the butterfly blocks:
 
-![Butterfly program](doc/blocks-toolbox.png)
+![Butterfly program](doc/butterfly-program.png)
 
 Be sure to use the NeoPixel "show" block once you've set your
 butterfly colors.
