@@ -110,7 +110,7 @@ exception).
 
 [1]: https://jlcpcb.com/quote
 [2]: https://en.wikipedia.org/wiki/Electroless_nickel_immersion_gold
-[5]: http://kicad-pcb.org/
+[5]: http://kicad.org/
 [6]: https://en.wikipedia.org/wiki/Gerber_format
 [9]: https://support.jlcpcb.com/article/28-how-to-remove-the-customer-id-on-the-pcb
 [12]: https://creativecommons.org/licenses/by-sa/4.0/
